@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spotify-api-angular"
+    }
+  },
+  "defaultProject": "spotify-api-angular",
+  "cli": {
+    "analytics": "9934a38b-2095-47c0-a6d0-c5818f6d8179"
+  }
 }

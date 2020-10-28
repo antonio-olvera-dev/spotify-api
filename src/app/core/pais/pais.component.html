@@ -1,0 +1,17 @@
+
+<div class="card-deck center" *ngIf="block">
+    <!-- *ngFor="let album of albums" -->
+
+<app-card-spotify   *ngFor="let album of albums"
+  [img]="album.images[0].url"
+  [name]="album.name"
+  [nameArtist]="album.artists[0].name"
+  [releaseDate]="album.release_date"
+  [releaseTracks]="album.total_tracks"
+  [externalUrl]="album.external_urls.spotify"
+  (open)="open($event)"
+>
+</app-card-spotify>
+
+
+</div>
